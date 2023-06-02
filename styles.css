@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica&family=Playfair+Display+SC&family=Raleway:ital,wght@1,300&display=swap");
+body {
+  color: rgb(50, 41, 34);
+  /* background: linear-gradient(#e66465, #9198e5); */
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+              linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+              linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Geologica", sans-serif;
+  /* font-family: 'Playfair Display SC', serif;
+             font-family: 'Raleway', sans-serif;            */
+}
+.jaba {
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 2px 6px 20px rgb(50, 41, 34);
+}
+.info p {
+  color: rgb(91, 90, 112);
+  margin: 0;
+  font-style: italic;
+  text-decoration: none;
+  text-transform: uppercase;
+  
+  /* word-spacing: 5px; */
+}
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+/* Box model */
+/* .baza {
+  background: rgb(254, 242, 227);
+  padding: 20px;
+  border: 2px double #e66465;
+  margin-left: 20px;
+} */
+.card{
+  padding: 5px 20px;
+  background: bisque;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: 2px solid #e66465;
+}
+a{
+  text-decoration: none;
+  color:  rgb(50, 41, 34);
+}
+a:hover{
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+a:active{
+  font-weight: bold;
+  color: #e66465;
+}
+a:visited{
+  color:rgb(143, 119, 100);
+} ;
+.list{
+  padding: 0px 30px;
+  list-style: none;
+}
+.table{
+  width: 100%;
+}
+.table td{
+  padding-bottom: 10px;
+}
+.table td:nth-child(1){
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.form-group{
+  background: beige;
+  margin-bottom: 10px;
+  border: 1px solid #e66465;
+  border-radius: 20px;
+  padding-bottom: 5px;
+}
+.form-group label{
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+.form-group input,
+.form-group textarea{
+  width:100%;
+  box-sizing: border-box;
+  border: none;
+  /* border-bottom: 1px solid #e66465;
+  border-left: 1px solid #e66465; */
+  outline: none;
+  font-family: inherit;
+  background: beige;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+}
+.form h2{
+text-align: center;
+}
+.form button{
+ text-align: center;
+ padding: 10px 20px;
+ background: beige;
+ border: 2px solid #e66465;
+ border-radius: 20px;
+ text-transform: uppercase;
+}
+.form button:hover{
+  opacity: 0.9;
+}
+.info{
+  display: flex;
+  margin-bottom: 20px;
+}
+.info-text{
+  margin-left: 40px;
+}
